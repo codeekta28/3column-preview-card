@@ -28,6 +28,8 @@ h6 {
     text-decoration:none;
   
 }
+
+
 /* threeColumns Section */
 #threeColumns {
   height: 100vh;
@@ -48,8 +50,9 @@ h6 {
 #threeColumns .container .row .col-sm-4:nth-of-type(1) {
   background-color: var(--primary-Bright-Orange);
 }
-#threeColumns .container .row .col-sm-4:nth-of-type(1) .btn {
+#threeColumns .container .row .col-sm-4:nth-of-type(1) .btn,#threeColumns .container .row .col-sm-4:nth-of-type(1) img {
   color: var(--primary-Bright-Orange);
+
 }
 #threeColumns .container .row .col-sm-4:nth-of-type(1) .btn:hover {
   background-color: var(--primary-Bright-Orange);
@@ -61,7 +64,10 @@ h6 {
 }
 #threeColumns .container .row .col-sm-4:nth-of-type(2) .btn {
   color: var(--primary-Dark-cyan);
-}
+ }
+     #threeColumns .container .row .col-sm-4:nth-of-type(2) img{
+        filter: invert(15%) sepia(75%) saturate(5033%) hue-rotate(175deg) brightness(92%) contrast(101%);
+     }
 #threeColumns .container .row .col-sm-4:nth-of-type(2) .btn:hover {
   background-color: var(--primary-Dark-cyan);
   color: var(--neutral-heading-btns-bg);
@@ -72,6 +78,9 @@ h6 {
 }
 #threeColumns .container .row .col-sm-4:nth-of-type(3) .btn {
     color: var(--primary-Very-dark-cyan);
+  }
+  #threeColumns .container .row .col-sm-4:nth-of-type(3) img {
+    filter: invert(17%) sepia(69%) saturate(1022%) hue-rotate(141deg) brightness(95%) contrast(103%);
   }
   #threeColumns .container .row .col-sm-4:nth-of-type(3) .btn:hover {
     background-color:var(--primary-Very-dark-cyan);

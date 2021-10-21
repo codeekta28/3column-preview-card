@@ -1,0 +1,95 @@
+:root {
+  --primary-Bright-Orange: hsl(31, 77%, 52%);
+  --primary-Dark-cyan: hsl(184, 100%, 22%);
+  --primary-Very-dark-cyan: hsl(179, 100%, 13%);
+  --neutral-paragraph: hsla(0, 0%, 100%, 0.75);
+  --neutral-heading-btns-bg: hsl(0, 0%, 95%);
+}
+body {
+  font-size: 15px;
+  background-color: var(--neutral-heading-btns-bg);
+}
+p {
+  font-family: 'Lexend Deca', sans-serif;
+  color: var(--neutral-paragraph);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Big Shoulders Display', cursive;
+  color: var(--neutral-heading-btns-bg);
+}
+.participant{
+    color: var(--primary-Bright-Orange);
+    font-family: cursive;
+    text-decoration:none;
+  
+}
+/* threeColumns Section */
+#threeColumns {
+  height: 100vh;
+}
+#threeColumn .container {
+  width: 1000px;
+}
+#threeColumns .container .row .col-sm-4 .btn {
+  font-family: 'Lexend Deca', sans-serif;
+  background-color: var(--neutral-heading-btns-bg);
+  transition: .5s all ease-in-out;
+}
+#threeColumns .container .row .col-sm-4 .btn:hover {
+  cursor: pointer;
+  border: 2px solid var(--neutral-heading-btns-bg);
+}
+/* ******************************************************************************* */
+#threeColumns .container .row .col-sm-4:nth-of-type(1) {
+  background-color: var(--primary-Bright-Orange);
+}
+#threeColumns .container .row .col-sm-4:nth-of-type(1) .btn {
+  color: var(--primary-Bright-Orange);
+}
+#threeColumns .container .row .col-sm-4:nth-of-type(1) .btn:hover {
+  background-color: var(--primary-Bright-Orange);
+  color: var(--neutral-heading-btns-bg);
+}
+/* *********************************************************************************** */
+#threeColumns .container .row .col-sm-4:nth-of-type(2) {
+  background-color: var(--primary-Dark-cyan);
+}
+#threeColumns .container .row .col-sm-4:nth-of-type(2) .btn {
+  color: var(--primary-Dark-cyan);
+}
+#threeColumns .container .row .col-sm-4:nth-of-type(2) .btn:hover {
+  background-color: var(--primary-Dark-cyan);
+  color: var(--neutral-heading-btns-bg);
+}
+/* ************************************************************************************** */
+#threeColumns .container .row .col-sm-4:nth-of-type(3) {
+  background-color: var(--primary-Very-dark-cyan);
+}
+#threeColumns .container .row .col-sm-4:nth-of-type(3) .btn {
+    color: var(--primary-Very-dark-cyan);
+  }
+  #threeColumns .container .row .col-sm-4:nth-of-type(3) .btn:hover {
+    background-color:var(--primary-Very-dark-cyan);
+    color: var(--neutral-heading-btns-bg);
+  }
+
+/* media query */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 900px;
+  }
+}
+@media (max-width: 575px){
+    #threeColumns{
+        height: auto;
+    }
+    .container{
+        max-width: 280px;
+    }
+}
+/* next reduce the width of container than u will be able to do exactly like photo */

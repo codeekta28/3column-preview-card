@@ -12,16 +12,16 @@ This is a solution to the [3-column preview card component challenge on Frontend
   - [What I learned](#what-i-learned)
 
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
 ### The challenge
 
-Faces Two Problems:
+Faces Three Problems:
 
 - After spending so much time in margin padding stuff finally sort that reducing the size of container will give desired layout
 - Still get confused in deciding the break point in media query should use max-width or min-width but finally understood will need more practice
+-How to change the color of SVG Image though found the link in codepen that automatically convert hex color to filter and apply that filter to image
 
 ## My process
 
@@ -41,4 +41,9 @@ Here is the code
 }
 }
 ```
+
+Resources
+codepenlink to convert hexColor to filter to change the color of image
+[https://codepen.io/sosuke/pen/Pjoqqp](https://codepen.io/sosuke/pen/Pjoqqp)
+
 

@@ -65,9 +65,7 @@ h6 {
 #threeColumns .container .row .col-sm-4:nth-of-type(2) .btn {
   color: var(--primary-Dark-cyan);
  }
-     #threeColumns .container .row .col-sm-4:nth-of-type(2) img{
-        filter: invert(15%) sepia(75%) saturate(5033%) hue-rotate(175deg) brightness(92%) contrast(101%);
-     }
+
 #threeColumns .container .row .col-sm-4:nth-of-type(2) .btn:hover {
   background-color: var(--primary-Dark-cyan);
   color: var(--neutral-heading-btns-bg);
@@ -79,9 +77,7 @@ h6 {
 #threeColumns .container .row .col-sm-4:nth-of-type(3) .btn {
     color: var(--primary-Very-dark-cyan);
   }
-  #threeColumns .container .row .col-sm-4:nth-of-type(3) img {
-    filter: invert(17%) sepia(69%) saturate(1022%) hue-rotate(141deg) brightness(95%) contrast(103%);
-  }
+
   #threeColumns .container .row .col-sm-4:nth-of-type(3) .btn:hover {
     background-color:var(--primary-Very-dark-cyan);
     color: var(--neutral-heading-btns-bg);
@@ -101,4 +97,15 @@ h6 {
         max-width: 280px;
     }
 }
-/* next reduce the width of container than u will be able to do exactly like photo */
+@media only screen and (min-width: 575px) and (max-width:750px){
+
+ .container{
+   max-width: none;
+ }
+ #threeColumns .row .col-sm-4{
+   padding: 3rem 2rem 3rem 2rem;
+ }
+ #threeColumns .row .col-sm-4 a{
+   padding: auto; 
+}
+}
